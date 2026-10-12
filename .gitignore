@@ -1,0 +1,39 @@
+# Videos originales (pesan varios GB; la web usa las versiones livianas de media/web)
+media/originales/
+
+# Descargas de Drive y archivos sueltos
+*.zip
+*.tmp
+*.xlsx
+
+# Configuracion local
+.claude/
+
+subir-a-github/
+
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db
+
+# Claves y certificados
+*.pfx
+*.p12
+id_rsa*
+*.heic
+
+# Videos originales sueltos en img/ (la web solo usa los .jpg de esta carpeta)
+img/*.mp4
+img/*.mov
+img/*.MOV

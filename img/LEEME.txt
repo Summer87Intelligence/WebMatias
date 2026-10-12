@@ -1,0 +1,9 @@
+Poné acá las fotos de Matías con estos nombres exactos (JPG).
+Mientras no estén, la web usa fotos de ejemplo automáticamente.
+
+  hero.jpg                    -> Foto principal de fondo (horizontal, grande)
+  programa-entrenamiento.jpg  -> Tarjeta "Entrenamiento"
+  programa-nutricion.jpg      -> Tarjeta "Entrenamiento + Guía Nutricional"
+  programa-hibrido.jpg        -> Tarjeta "Atleta Híbrido" (running / hyrox)
+  sobre-mi.jpg                -> Foto de Matías (vertical)
+  asesoria.jpg                -> Sección Asesoría 1:1
