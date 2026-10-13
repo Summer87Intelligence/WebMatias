@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matias Larghero | Coach Online & Atleta Híbrido</title>
-  <meta name="description" content="Entrenamiento online + guía nutricional. Te ayudo a mantener un estilo de vida sano y sostenible." />
+  <title>Matías Larghero | Entrenador online · Bajar grasa</title>
+  <meta name="description" content="Entrenamiento y alimentación a tu medida, con seguimiento semanal. 100 % online." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -15,15 +15,15 @@
   <!-- ============ NAVBAR ============ -->
   <header class="nav" id="nav">
     <div class="nav__inner container">
-      <a href="#hero" class="nav__logo">MATIAS <span>ENTRENADOR</span></a>
+      <a href="#hero" class="nav__logo"><img src="img/logo-ml.png" alt="" class="nav__mark" />MATÍAS <span>ENTRENADOR</span></a>
       <nav class="nav__links" id="navLinks">
+        <a href="#como-funciona">Cómo funciona</a>
         <a href="#programas">Programas</a>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#galeria">Galería</a>
-        <a href="#asesoria">Asesoría 1:1</a>
+        <a href="#caso-real">Caso real</a>
+        <a href="#sobre-mi">Mi historia</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <a href="#programas" class="btn btn--yellow btn--sm nav__cta">Empezar</a>
+      <a href="#" data-wa="Hola Matías, quiero info del PLAN" class="btn btn--yellow btn--sm nav__cta">Escribime</a>
       <button class="nav__burger" id="burger" aria-label="Abrir menú"><span></span><span></span></button>
     </div>
   </header>
@@ -38,20 +38,20 @@
       <div class="hero__overlay"></div>
 
       <div class="hero__content container">
-        <p class="hero__badge reveal"><span class="dot"></span> Coach online · Entrenamiento + Nutrición</p>
-        <h1 class="hero__title">
-          <span class="line"><span class="word">ENTRENÁ</span> <span class="word">CON</span></span>
-          <span class="line"><span class="word">UN</span> <span class="word hl">PLAN</span> <span class="word hl">REAL</span></span>
+        <p class="hero__badge reveal"><span class="dot"></span> Entrenador online · Bajar grasa</p>
+        <h1 class="hero__title hero__title--largo">
+          <span class="line"><span class="word">¿ENTRENÁS</span> <span class="word">HACE</span> <span class="word">MESES</span></span>
+          <span class="line"><span class="word">Y</span> <span class="word hl">NO</span> <span class="word hl">VES</span> <span class="word hl">CAMBIOS?</span></span>
         </h1>
         <p class="hero__sub reveal" style="--d:.5s">
-          Te ayudo a mantener un estilo de vida sano y sostenible. Entrenamiento a tu medida, guía nutricional y seguimiento para que veas resultados de verdad.
+          Te armo el entrenamiento y la alimentación a tu medida, y te sigo todas las semanas para ajustar lo que haga falta. 100&nbsp;% online.
         </p>
         <div class="hero__ctas reveal" style="--d:.65s">
-          <a href="#programas" class="btn btn--yellow">Elegir mi programa <i>→</i></a>
-          <a href="#asesoria" class="btn btn--ghost">Asesoría 1:1</a>
+          <a href="#" data-wa="Hola Matías, quiero info del PLAN" class="btn btn--yellow">Escribime PLAN <i>→</i></a>
+          <a href="#programas" class="btn btn--ghost">Ver programas</a>
         </div>
         <ul class="hero__micro reveal" style="--d:.8s">
-          <li>100% online</li><li>·</li><li>Plan personalizado</li><li>·</li><li>Seguimiento real</li>
+          <li>100&nbsp;% online</li><li>·</li><li>Plan a tu medida</li><li>·</li><li>Seguimiento semanal</li>
         </ul>
       </div>
     </section>
@@ -59,8 +59,8 @@
     <!-- ============ MARQUEE ============ -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee__track">
-        <span>FUERZA</span><b>✦</b><span>RUNNING</span><b>✦</b><span>NUTRICIÓN</span><b>✦</b><span>HYROX</span><b>✦</b><span>HÁBITOS</span><b>✦</b><span>ATLETA HÍBRIDO</span><b>✦</b>
-        <span>FUERZA</span><b>✦</b><span>RUNNING</span><b>✦</b><span>NUTRICIÓN</span><b>✦</b><span>HYROX</span><b>✦</b><span>HÁBITOS</span><b>✦</b><span>ATLETA HÍBRIDO</span><b>✦</b>
+        <span>BAJAR GRASA</span><b>✦</b><span>GANAR MÚSCULO</span><b>✦</b><span>ALIMENTACIÓN</span><b>✦</b><span>FUERZA</span><b>✦</b><span>HÁBITOS</span><b>✦</b><span>RUNNING</span><b>✦</b><span>HYROX</span><b>✦</b>
+        <span>BAJAR GRASA</span><b>✦</b><span>GANAR MÚSCULO</span><b>✦</b><span>ALIMENTACIÓN</span><b>✦</b><span>FUERZA</span><b>✦</b><span>HÁBITOS</span><b>✦</b><span>RUNNING</span><b>✦</b><span>HYROX</span><b>✦</b>
       </div>
     </div>
 
@@ -71,30 +71,57 @@
           <div class="feature__icon">
             <svg viewBox="0 0 24 24"><path d="M6 4v16M18 4v16M3 8v8M21 8v8M6 12h12"/></svg>
           </div>
-          <h3>PERSONALIZADO</h3>
-          <p>Tu plan se arma según tu nivel, objetivos y tiempo disponible.</p>
+          <h3>A TU MEDIDA</h3>
+          <p>Rutina y alimentación armadas para tu nivel, tus horarios y lo que te gusta comer.</p>
         </article>
         <article class="feature reveal" style="--d:.1s">
           <div class="feature__icon">
             <svg viewBox="0 0 24 24"><path d="M12 21c-4-3-7-6.5-7-10.5A7 7 0 0 1 12 3.5a7 7 0 0 1 7 7C19 14.5 16 18 12 21z"/><path d="M12 8v6M9 11h6"/></svg>
           </div>
-          <h3>GUÍA NUTRICIONAL</h3>
-          <p>Comé mejor sin dietas extremas. Estrategias simples y sostenibles.</p>
+          <h3>COMIDA NORMAL</h3>
+          <p>Sin dietas extremas ni alimentos prohibidos. Pan, pizza y asado entran en el plan.</p>
         </article>
         <article class="feature reveal" style="--d:.2s">
           <div class="feature__icon">
             <svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg>
           </div>
-          <h3>SEGUIMIENTO</h3>
-          <p>Contacto directo conmigo y ajustes constantes para que progreses.</p>
+          <h3>SEGUIMIENTO SEMANAL</h3>
+          <p>Me mandás tu check-in cada semana y ajusto según cómo venís.</p>
         </article>
         <article class="feature reveal" style="--d:.3s">
           <div class="feature__icon">
             <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
           </div>
-          <h3>RESULTADOS</h3>
-          <p>Fuerza, resistencia y estética. Un estilo de vida que se mantiene.</p>
+          <h3>RESULTADOS QUE DURAN</h3>
+          <p>Bajás grasa sin perder músculo, con algo que podés sostener.</p>
         </article>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA ============ -->
+    <section class="steps" id="como-funciona">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">CÓMO <span class="hl">FUNCIONA</span></h2>
+          <span class="section__bar"></span>
+        </div>
+        <div class="steps__grid">
+          <article class="step reveal">
+            <span class="step__n">1</span>
+            <h3>ME ESCRIBÍS</h3>
+            <p>Me contás tu objetivo, tus horarios y cómo venís entrenando.</p>
+          </article>
+          <article class="step reveal" style="--d:.12s">
+            <span class="step__n">2</span>
+            <h3>TE ARMO EL PLAN</h3>
+            <p>Rutina con video de cada ejercicio y plan de alimentación con cantidades, opciones de cambio, recetas y lista de compras.</p>
+          </article>
+          <article class="step reveal" style="--d:.24s">
+            <span class="step__n">3</span>
+            <h3>SEGUIMIENTO TODAS LAS SEMANAS</h3>
+            <p>Check-in con peso, medidas y cómo te sentiste. Con eso ajusto lo que haga falta.</p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -102,28 +129,28 @@
     <section class="programs section" id="programas">
       <div class="container">
         <div class="section__head reveal">
-          <h2 class="section__title">ELEGÍ TU <span class="hl">PROGRAMA</span></h2>
+          <h2 class="section__title">ELEGÍ CÓMO <span class="hl">ARRANCAR</span></h2>
           <span class="section__bar"></span>
-          <p class="section__lead">Tres caminos, un mismo objetivo: que entrenes con estructura y logres resultados que se sostienen en el tiempo.</p>
+          <p class="section__lead">Los dos son personalizados y con seguimiento semanal.</p>
         </div>
 
-        <div class="programs__grid">
+        <div class="programs__grid programs__grid--2">
           <!-- 1. Entrenamiento -->
           <article class="card reveal">
             <div class="card__media">
               <img src="img/programa-entrenamiento.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80'" alt="Entrenamiento" loading="lazy" />
-              <span class="card__tag">TRAINING</span>
+              <span class="card__tag">ENTRENAMIENTO</span>
             </div>
             <div class="card__body">
               <h3 class="card__title">Entrenamiento</h3>
-              <p class="card__desc">Plan de entrenamiento online 100% adaptado a vos. Rutinas estructuradas semana a semana para ganar fuerza, masa muscular y condición física.</p>
+              <p class="card__desc">Tu rutina armada para tu nivel y tus días disponibles.</p>
               <ul class="card__list">
-                <li>Rutina personalizada según tu nivel</li>
-                <li>Progresión planificada</li>
-                <li>Videos y explicación de ejercicios</li>
+                <li>Rutina personalizada con video de cada ejercicio</li>
+                <li>Progresión planificada semana a semana</li>
+                <li>Planilla para anotar tus pesos desde el celular</li>
                 <li>Seguimiento y ajustes</li>
               </ul>
-              <p class="card__for">Ideal para quienes quieren dejar de improvisar en el gym</p>
+              <p class="card__for">Para quien quiere dejar de improvisar en el gimnasio</p>
               <a href="#" data-wa="Hola Matías! Me interesa el plan de Entrenamiento" class="btn btn--yellow btn--block">Quiero empezar <i>→</i></a>
             </div>
           </article>
@@ -132,45 +159,49 @@
           <article class="card card--featured reveal" style="--d:.12s">
             <span class="card__ribbon">★ MÁS ELEGIDO</span>
             <div class="card__media">
-              <img src="img/programa-nutricion.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80'" alt="Entrenamiento y guía nutricional" loading="lazy" />
-              <span class="card__tag">TRAINING + NUTRICIÓN</span>
+              <img src="img/programa-nutricion.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80'" alt="Entrenamiento y alimentación" loading="lazy" />
+              <span class="card__tag">PLAN COMPLETO</span>
             </div>
             <div class="card__body">
-              <h3 class="card__title">Entrenamiento + Guía Nutricional</h3>
-              <p class="card__desc">El combo completo. Entrenamiento personalizado más una guía nutricional práctica para potenciar tus resultados sin dietas imposibles.</p>
+              <h3 class="card__title">Entrenamiento + Alimentación</h3>
+              <p class="card__desc">El plan completo para bajar grasa o ganar músculo.</p>
               <ul class="card__list">
-                <li>Todo lo del plan Entrenamiento</li>
-                <li>Guía nutricional personalizada</li>
-                <li>Hábitos y estrategias sostenibles</li>
-                <li>Seguimiento de progreso</li>
+                <li>Todo lo del plan de entrenamiento</li>
+                <li>Plan de alimentación con cantidades y comida normal</li>
+                <li>Opciones de cambio, recetas y lista de compras</li>
+                <li>Check-in semanal y ajustes según tu progreso</li>
               </ul>
-              <p class="card__for">Ideal para quienes buscan un cambio completo de estilo de vida</p>
-              <a href="#" data-wa="Hola Matías! Me interesa el plan de Entrenamiento + Guía Nutricional" class="btn btn--yellow btn--block">Quiero empezar <i>→</i></a>
+              <p class="card__for">Para quien quiere un cambio completo y que se note</p>
+              <a href="#" data-wa="Hola Matías! Me interesa el plan de Entrenamiento + Alimentación" class="btn btn--yellow btn--block">Quiero empezar <i>→</i></a>
             </div>
           </article>
 
-          <!-- 3. Atleta híbrido -->
-          <article class="card reveal" style="--d:.24s">
-            <div class="card__media">
-              <img src="img/programa-hibrido.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80'" alt="Atleta híbrido" loading="lazy" />
-              <span class="card__tag">HYBRID</span>
-            </div>
-            <div class="card__body">
-              <h3 class="card__title">Atleta Híbrido</h3>
-              <p class="card__desc">Fuerza + resistencia en un mismo plan. Combiná gimnasio y running para rendir en todo: desde un 10K hasta una competencia de Hyrox.</p>
-              <ul class="card__list">
-                <li>Fuerza y running combinados</li>
-                <li>Preparación para 10K / Hyrox</li>
-                <li>Trabajo de potencia y velocidad</li>
-                <li>Periodización por bloques</li>
-              </ul>
-              <p class="card__for">Ideal para quienes quieren ser fuertes y rápidos a la vez</p>
-              <a href="#" data-wa="Hola Matías! Me interesa el plan Atleta Híbrido" class="btn btn--yellow btn--block">Quiero empezar <i>→</i></a>
-            </div>
-          </article>
         </div>
 
-        <p class="programs__help reveal">¿No sabés cuál te queda mejor? <a href="#" data-wa="Hola Matías! Quiero que me recomiendes un plan">Escribime y te oriento →</a></p>
+        <p class="programs__help reveal">¿Corrés o competís? También preparo 10K y Hyrox combinando fuerza y resistencia. <a href="#" data-wa="Hola Matías! Quiero preparar una carrera o Hyrox">Escribime y lo vemos →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ CASO REAL ============ -->
+    <section class="coaching" id="caso-real">
+      <div class="container coaching__grid">
+        <div class="coaching__text reveal">
+          <p class="eyebrow">Caso real · anónimo, con su permiso</p>
+          <h2 class="coaching__title">BAJA GRASA <span class="hl">COMIENDO 2.800&nbsp;KCAL</span></h2>
+          <p class="coaching__sub">Para bajar grasa no hace falta comer poco</p>
+          <p>Pesa 99 kg y entrena fuerza cinco días por semana. Su plan tiene cinco comidas, pan, fideos y una pizza por semana.</p>
+          <p>Cada semana me manda peso y cintura, y con eso ajusto. Un plan que no podés sostener un mes no sirve, por más perfecto que quede en el papel.</p>
+          <a href="https://www.instagram.com/matiass_entrenador/" target="_blank" rel="noopener" class="btn btn--yellow">Ver el caso en Instagram <i>→</i></a>
+        </div>
+        <div class="coaching__media reveal" style="--d:.15s">
+          <div class="coaching__img">
+            <img src="img/programa-nutricion.jpg" alt="Plan de alimentación" loading="lazy" />
+          </div>
+          <div class="coaching__badge">
+            <strong>#1</strong>
+            <span>Caso real</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -178,30 +209,30 @@
     <section class="about section" id="sobre-mi">
       <div class="container">
         <div class="section__head reveal">
-          <h2 class="section__title">SOBRE <span class="hl">MÍ</span></h2>
+          <h2 class="section__title section__title--historia">ME DIJERON QUE NO IBA A HACER <span class="hl">DEPORTE NUNCA MÁS</span></h2>
           <span class="section__bar"></span>
         </div>
 
         <div class="about__grid">
           <div class="about__photo reveal">
-            <img src="img/sobre-mi.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=80'" alt="Matias Larghero" loading="lazy" />
+            <img src="img/sobre-mi.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=80'" alt="Matías Larghero" loading="lazy" />
             <div class="about__stamp">
-              <strong>COACH</strong>
-              <span>ONLINE</span>
+              <strong>MI</strong>
+              <span>HISTORIA</span>
             </div>
           </div>
           <div class="about__text reveal" style="--d:.15s">
-            <p class="about__lead">Soy <strong>Matías Larghero</strong>, entrenador y coach online. Ayudo a personas a construir un cuerpo fuerte y un estilo de vida sano que se pueda sostener en el tiempo.</p>
-            <p>El entrenamiento cambió mi vida. Pasé por el gimnasio, el running y el entrenamiento híbrido, y en el camino aprendí que los resultados no vienen de hacer todo perfecto, sino de ser constante.</p>
-            <p>Hoy combino fuerza, resistencia y nutrición para que vos también puedas mejorar sin extremos: con un plan claro, adaptado a tu rutina y con alguien que te acompaña en cada paso.</p>
-            <p>Mi objetivo es que disfrutes el proceso, que entrenes con propósito y que tus resultados se queden con vos.</p>
-            <a href="#programas" class="btn btn--dark">Elegir mi programa <i>→</i></a>
+            <p class="about__lead">Soy <strong>Matías Larghero</strong>, entrenador online. A los 20 años me quebré el tobillo y me operaron: una chapa, cinco tornillos y quince puntos.</p>
+            <p>El médico me dijo que me olvidara de los deportes de impacto. Yo hacía deporte desde los tres años. Pasé meses sin poder caminar y perdí todo el músculo que tenía.</p>
+            <p>Volví de a poco, con paciencia, trabajo específico y consultando a un especialista antes de cada paso. Hoy sigo con la chapa y los tornillos puestos: corro más de 15 km, hago Hyrox y juego al vóley sin dolor.</p>
+            <p>De ahí salió mi profesión. Sé lo que es arrancar de cero, y por eso no trabajo con planes imposibles: trabajo con lo que podés sostener.</p>
+            <a href="https://www.instagram.com/matiass_entrenador/" target="_blank" rel="noopener" class="btn btn--dark">Ver mi historia en Instagram <i>→</i></a>
           </div>
         </div>
 
         <div class="quotes">
           <blockquote class="quote reveal">“La constancia le gana a la motivación”</blockquote>
-          <blockquote class="quote reveal" style="--d:.1s">“Un estilo de vida sano tiene que ser sostenible”</blockquote>
+          <blockquote class="quote reveal" style="--d:.1s">“Un plan que no podés sostener no sirve”</blockquote>
           <blockquote class="quote reveal" style="--d:.2s">“No es cuento. Es mi historia.”</blockquote>
         </div>
       </div>
@@ -211,10 +242,10 @@
     <section class="gallery" id="galeria">
       <div class="container">
         <div class="section__head reveal">
-          <p class="eyebrow">Así entrenamos</p>
+          <p class="eyebrow">Así entreno</p>
           <h2 class="section__title">EN <span class="hl">ACCIÓN</span></h2>
           <span class="section__bar"></span>
-          <p class="section__lead">Entrenamientos reales, sin filtro. Arrastrá, usá las flechas o tocá un video para verlo completo.</p>
+          <p class="section__lead">Así entreno y así trabajo. Arrastrá, usá las flechas o tocá un video para verlo completo.</p>
         </div>
       </div>
 
@@ -252,41 +283,16 @@
       <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Siguiente">→</button>
     </div>
 
-    <!-- ============ ASESORÍA 1:1 ============ -->
-    <section class="coaching" id="asesoria">
-      <div class="container coaching__grid">
-        <div class="coaching__text reveal">
-          <p class="eyebrow">Para quienes quieren más</p>
-          <h2 class="coaching__title">ASESORÍA <span class="hl">1:1</span></h2>
-          <p class="coaching__sub">El nivel más alto de acompañamiento</p>
-          <p>Si querés resultados más rápidos y un plan 100% adaptado a vos, la asesoría personalizada es el camino. Diseño tu entrenamiento, nutrición y hábitos en base a tu situación real.</p>
-          <p>Esto no es para todos. Requiere compromiso y comunicación constante.</p>
-          <p>Si estás listo para invertir en vos y trabajar en serio, completá el formulario.</p>
-          <a href="https://forms.gle/LDdggzfmU8BwJvBRA" target="_blank" rel="noopener" class="btn btn--yellow">Aplicar a la asesoría <i>→</i></a>
-          <p class="coaching__note">Cupos limitados. Solo acepto personas comprometidas.</p>
-        </div>
-        <div class="coaching__media reveal" style="--d:.15s">
-          <div class="coaching__img">
-            <img src="img/asesoria.jpg" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=80'" alt="Asesoría personalizada" loading="lazy" />
-          </div>
-          <div class="coaching__badge">
-            <strong>1:1</strong>
-            <span>Plan a tu medida</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- ============ CONTACTO ============ -->
     <section class="contact section" id="contacto">
       <div class="container">
         <div class="section__head reveal">
-          <h2 class="section__title">HABLEMOS</h2>
+          <h2 class="section__title">¿<span class="hl">ARRANCAMOS</span>?</h2>
           <span class="section__bar"></span>
-          <p class="section__lead">Escribime por el medio que prefieras y arrancamos.</p>
+          <p class="section__lead">Escribime PLAN por WhatsApp o Instagram y te cuento cómo sería en tu caso. Sin compromiso.</p>
         </div>
         <div class="contact__grid">
-          <a class="contact__card reveal" href="#" data-wa="Hola Matías! Quiero más info sobre tus planes">
+          <a class="contact__card reveal" href="#" data-wa="Hola Matías, quiero info del PLAN">
             <span class="contact__icon">
               <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.4 17.1L2 22l5-1.3A11 11 0 0 0 20.5 3.5zM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20zm4.9-6.7c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
             </span>
@@ -316,8 +322,8 @@
   <footer class="footer">
     <div class="container footer__top">
       <div>
-        <a href="#hero" class="footer__logo">MATIAS <span>ENTRENADOR</span></a>
-        <p class="footer__tag">COACH ONLINE · ATLETA HÍBRIDO</p>
+        <a href="#hero" class="footer__logo">MATÍAS <span>ENTRENADOR</span></a>
+        <p class="footer__tag">ENTRENADOR ONLINE · BAJAR GRASA</p>
       </div>
       <div class="footer__social">
         <p>SEGUIME EN REDES</p>
@@ -336,12 +342,12 @@
       <a href="#hero" class="footer__top-link">VOLVER ARRIBA <span>↑</span></a>
     </div>
     <div class="container footer__bottom">
-      © <span id="year"></span> Matias Larghero. Todos los derechos reservados.
+      © <span id="year"></span> Matías Larghero. Todos los derechos reservados.
     </div>
   </footer>
 
   <!-- Botón flotante WhatsApp -->
-  <a href="#" data-wa="Hola Matías! Quiero empezar a entrenar" class="wa-float" aria-label="Escribir por WhatsApp">
+  <a href="#" data-wa="Hola Matías, quiero info del PLAN" class="wa-float" aria-label="Escribir por WhatsApp">
     <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.4 17.1L2 22l5-1.3A11 11 0 0 0 20.5 3.5zM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20zm4.9-6.7c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
     <span>¿Hablamos?</span>
   </a>
