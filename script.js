@@ -60,6 +60,15 @@ if (heroVideo) {
   }
 }
 
+// Video de "Caso real": se reproduce solo (sin sonido) cuando entra en pantalla
+const casoVideo = document.getElementById('casoVideo');
+if (casoVideo && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  new IntersectionObserver(([e]) => {
+    if (e.isIntersecting) casoVideo.play().catch(() => {});
+    else casoVideo.pause();
+  }, { threshold: 0.4 }).observe(casoVideo);
+}
+
 // Parallax del fondo del hero
 const heroBg = document.querySelector('[data-parallax]');
 if (heroBg && !matchMedia('(prefers-reduced-motion: reduce)').matches) {

@@ -346,6 +346,8 @@ svg.stroke, .feature__icon svg { fill: none; stroke: currentColor; stroke-width:
 .coaching__img { border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 4.4; }
 .coaching__img img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease); }
 .coaching__media:hover .coaching__img img { transform: scale(1.05); }
+.coaching__img--video { aspect-ratio: 9 / 16; max-width: 400px; margin-inline: auto; background: #000; border: 2px solid var(--yellow); }
+.coaching__img--video video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .coaching__badge {
   position: absolute; left: -30px; bottom: 40px;
   background: var(--yellow); color: var(--black);
